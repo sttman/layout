@@ -6,22 +6,16 @@
 //  Copyright © 2016年 shitaotao. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "TestViewController.h"
-#import "LayoutController.h"
-@interface ViewController ()
+#import "SetPersonalCenterController.h"
+
+@interface SetPersonalCenterController ()
 
 @end
 
-@implementation ViewController
+@implementation SetPersonalCenterController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setUPFrame];
-}
-- (void)setUPFrame
-{
-    
     UIView *redView = [[UIView alloc] init];
     redView.layer.cornerRadius = 45;
     redView.backgroundColor = [UIColor redColor];
@@ -128,7 +122,6 @@
     UIButton *enter =[[UIButton alloc] init];
     [enter setTitle:@"确定" forState:UIControlStateNormal];
     enter.backgroundColor =[UIColor orangeColor];
-    [enter addTarget:self action:@selector(clicker) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:enter];
     [enter mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self.view).with.offset(40);
@@ -146,16 +139,6 @@
         make.left.equalTo(enter);
         make.right.equalTo(enter);
     }];
-}
-- (void)clicker
-{
-    TestViewController *texe =[[TestViewController alloc] init];
-    [self presentViewController:texe animated:YES completion:nil];
-    
-}
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    LayoutController * layout = [[LayoutController alloc]init];
-    [self presentViewController:layout animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MainTableView.h
 //  layout
 //
-//  Created by shitaotao on 16/1/26.
+//  Created by shitaotao on 16/1/28.
 //  Copyright © 2016年 shitaotao. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainTableView : UITableViewController
 
 @end
-

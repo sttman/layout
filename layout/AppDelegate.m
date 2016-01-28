@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainTableView.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    MainTableView * main = [[MainTableView alloc]initWithStyle:UITableViewStylePlain];
+    main.title = @"Masonry";
+    UINavigationController * navi = [[UINavigationController alloc]initWithRootViewController:main];
+    self.window.rootViewController = navi;
     return YES;
 }
 

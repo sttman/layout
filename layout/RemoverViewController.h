@@ -6,8 +6,8 @@
 //  Copyright © 2015年 readchen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "STTBaseController.h"
 
-@interface TestViewController : UIViewController
+@interface RemoverViewController : STTBaseController
 
 @end
