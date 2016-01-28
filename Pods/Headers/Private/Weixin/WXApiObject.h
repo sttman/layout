@@ -1,1 +1,0 @@
-../../../Weixin/SDK1.6.2/WXApiObject.h
