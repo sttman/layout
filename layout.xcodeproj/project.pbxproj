@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		192EAE75ABA5AAA0A0138B57 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5419967FACCA6BC952C4F541 /* libPods.a */; };
+		8D007F941C5A1A6F00B8FFF0 /* ModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D007F931C5A1A6F00B8FFF0 /* ModifyViewController.m */; };
 		8D08512B1C56FFC0006D034B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D08512A1C56FFC0006D034B /* main.m */; };
 		8D08512E1C56FFC0006D034B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D08512D1C56FFC0006D034B /* AppDelegate.m */; };
 		8D0851311C56FFC0006D034B /* SetPersonalCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0851301C56FFC0006D034B /* SetPersonalCenterController.m */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		3B2D5329CE32059DFD9DF218 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5419967FACCA6BC952C4F541 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D007F921C5A1A6F00B8FFF0 /* ModifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyViewController.h; sourceTree = "<group>"; };
+		8D007F931C5A1A6F00B8FFF0 /* ModifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyViewController.m; sourceTree = "<group>"; };
 		8D0851261C56FFC0006D034B /* layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = layout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D08512A1C56FFC0006D034B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D08512C1C56FFC0006D034B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 				8D0851301C56FFC0006D034B /* SetPersonalCenterController.m */,
 				8DC507DE1C57461500451025 /* RemoverViewController.h */,
 				8DC507DF1C57461500451025 /* RemoverViewController.m */,
+				8D007F921C5A1A6F00B8FFF0 /* ModifyViewController.h */,
+				8D007F931C5A1A6F00B8FFF0 /* ModifyViewController.m */,
 				8D0851351C56FFC0006D034B /* Assets.xcassets */,
 				8D0851371C56FFC0006D034B /* LaunchScreen.storyboard */,
 				8D08513A1C56FFC0006D034B /* Info.plist */,
@@ -361,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D007F941C5A1A6F00B8FFF0 /* ModifyViewController.m in Sources */,
 				8D0851311C56FFC0006D034B /* SetPersonalCenterController.m in Sources */,
 				8D08512E1C56FFC0006D034B /* AppDelegate.m in Sources */,
 				8D83C60E1C59FE29009F2F67 /* STTBaseController.m in Sources */,
@@ -502,6 +508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = layout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.layout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = layout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.layout;
 				PRODUCT_NAME = "$(TARGET_NAME)";

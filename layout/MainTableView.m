@@ -11,6 +11,7 @@
 #import "SetPersonalCenterController.h"
 #import "BasicController.h"
 #import "RemoverViewController.h"
+#import "ModifyViewController.h"
 
 @interface MainTableView ()
 
@@ -26,7 +27,8 @@
     self.dataController = @[
                             [[BasicController alloc]initWithTitle:@"基础使用"],
                             [[SetPersonalCenterController alloc]initWithTitle:@"设置个人中心界面"],
-                            [[RemoverViewController alloc]initWithTitle:@"删除view"]
+                            [[RemoverViewController alloc]initWithTitle:@"删除View"],
+                            [[ModifyViewController alloc]initWithTitle:@"修改View的大小"]
                             ];
 }
 

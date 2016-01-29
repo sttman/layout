@@ -13,7 +13,7 @@
 @end
 
 @implementation SetPersonalCenterController
-
+// 这个可以自行理解，以巩固
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIView *redView = [[UIView alloc] init];
@@ -130,20 +130,11 @@
         make.right.equalTo(self.view).with.offset(-40);
     }];
     
-    UILabel *test = [[UILabel alloc] init];
-    test.backgroundColor =[UIColor redColor];
-    [self.view addSubview:test];
-    [test mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.view).with.offset(-30);
-        make.size.equalTo(enter);
-        make.left.equalTo(enter);
-        make.right.equalTo(enter);
-    }];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+
+    [self.view endEditing:YES];
 }
 
 @end
