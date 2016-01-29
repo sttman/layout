@@ -12,6 +12,7 @@
 #import "BasicController.h"
 #import "RemoverViewController.h"
 #import "ModifyViewController.h"
+#import "AnimatedViewController.h"
 
 @interface MainTableView ()
 
@@ -28,7 +29,8 @@
                             [[BasicController alloc]initWithTitle:@"基础使用"],
                             [[SetPersonalCenterController alloc]initWithTitle:@"设置个人中心界面"],
                             [[RemoverViewController alloc]initWithTitle:@"删除View"],
-                            [[ModifyViewController alloc]initWithTitle:@"修改View的大小"]
+                            [[ModifyViewController alloc]initWithTitle:@"修改View的大小"],
+                            [[AnimatedViewController alloc]initWithTitle:@"带动画效果叠加的view"]
                             ];
 }
 

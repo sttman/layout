@@ -44,7 +44,7 @@
     // 这里使用update也是一样的。
     // remake会将之前的全部移除，然后重新添加
     __weak typeof(self) weakSelf = self;
-    [self.growingButton mas_remakeConstraints:^(MASConstraintMaker *make) { // 更新视图约束
+    [self.growingButton mas_remakeConstraints:^(MASConstraintMaker *make) { // 删除视图约束
         make.top.mas_equalTo(0); // 上面离顶部为0 这样写默认是与self.view进行比较
         make.left.right.mas_equalTo(0); // 左右都是0
         if (weakSelf.isExpanded) {  // 判断下面离self.view的距离，进行变换

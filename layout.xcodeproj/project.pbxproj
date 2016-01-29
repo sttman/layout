@@ -17,6 +17,7 @@
 		8D0851441C56FFC0006D034B /* layoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0851431C56FFC0006D034B /* layoutTests.m */; };
 		8D08514F1C56FFC0006D034B /* layoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D08514E1C56FFC0006D034B /* layoutUITests.m */; };
 		8D6256FE1C57490100C3205B /* BasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6256FD1C57490100C3205B /* BasicController.m */; };
+		8D64CD1B1C5B0D0B004F372A /* AnimatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D64CD1A1C5B0D0B004F372A /* AnimatedViewController.m */; };
 		8D83C60B1C59FB9A009F2F67 /* MainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D83C60A1C59FB9A009F2F67 /* MainTableView.m */; };
 		8D83C60E1C59FE29009F2F67 /* STTBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D83C60D1C59FE29009F2F67 /* STTBaseController.m */; };
 		8DC507E01C57461500451025 /* RemoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC507DF1C57461500451025 /* RemoverViewController.m */; };
@@ -61,6 +62,8 @@
 		8D0851501C56FFC0006D034B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D6256FC1C57490100C3205B /* BasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicController.h; sourceTree = "<group>"; };
 		8D6256FD1C57490100C3205B /* BasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicController.m; sourceTree = "<group>"; };
+		8D64CD191C5B0D0B004F372A /* AnimatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedViewController.h; sourceTree = "<group>"; };
+		8D64CD1A1C5B0D0B004F372A /* AnimatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedViewController.m; sourceTree = "<group>"; };
 		8D83C6091C59FB9A009F2F67 /* MainTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableView.h; sourceTree = "<group>"; };
 		8D83C60A1C59FB9A009F2F67 /* MainTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableView.m; sourceTree = "<group>"; };
 		8D83C60C1C59FE29009F2F67 /* STTBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTBaseController.h; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				8DC507DF1C57461500451025 /* RemoverViewController.m */,
 				8D007F921C5A1A6F00B8FFF0 /* ModifyViewController.h */,
 				8D007F931C5A1A6F00B8FFF0 /* ModifyViewController.m */,
+				8D64CD191C5B0D0B004F372A /* AnimatedViewController.h */,
+				8D64CD1A1C5B0D0B004F372A /* AnimatedViewController.m */,
 				8D0851351C56FFC0006D034B /* Assets.xcassets */,
 				8D0851371C56FFC0006D034B /* LaunchScreen.storyboard */,
 				8D08513A1C56FFC0006D034B /* Info.plist */,
@@ -368,6 +373,7 @@
 			files = (
 				8D007F941C5A1A6F00B8FFF0 /* ModifyViewController.m in Sources */,
 				8D0851311C56FFC0006D034B /* SetPersonalCenterController.m in Sources */,
+				8D64CD1B1C5B0D0B004F372A /* AnimatedViewController.m in Sources */,
 				8D08512E1C56FFC0006D034B /* AppDelegate.m in Sources */,
 				8D83C60E1C59FE29009F2F67 /* STTBaseController.m in Sources */,
 				8D83C60B1C59FB9A009F2F67 /* MainTableView.m in Sources */,
